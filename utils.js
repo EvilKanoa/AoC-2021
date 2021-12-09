@@ -10,4 +10,7 @@ module.exports = {
       return undefined;
     }
   },
+  parseDecimal: (str) => parseInt(str, 10),
+  truthy: (x) => !!x,
+  unique: (val, idx, self) => self.indexOf(val) === idx,
 };
