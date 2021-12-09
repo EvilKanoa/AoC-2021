@@ -1,0 +1,8 @@
+{
+  "name": "AoC-2021",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:EvilKanoa/AoC-2021.git",
+  "author": "EvilKanoa <kanoa@kanoa.ca>",
+  "license": "MIT"
+}
