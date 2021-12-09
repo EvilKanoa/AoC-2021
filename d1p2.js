@@ -1,4 +1,4 @@
-const fs = require('fs');
+const { readLines } = require('./utils');
 
 // const d1p2 = (vals) => vals.reduce(
 //   ({ count, last }, curr, idx) => {
@@ -32,8 +32,7 @@ const d1p2 = (vals) => {
   return count;
 };
 
-const rawInput = fs.readFileSync('./d1input.txt').toString();
-const input = rawInput.split(/\n/).filter(x => !!x).map(x => parseInt(x, 10));
+const input = readLines('./d1input.txt').map(x => parseInt(x, 10));
 
 const result = d1p2(input);
 
